@@ -963,9 +963,9 @@ input.error {
 		margin-top: 2em;
 	}
 	.markdown-body {
-		font-size: .875em;
-		font-weight: 300;
 		font-style: italic;
+		line-height: 1.33em;
+		color: #9B9C9C;
 		width: 88%;
 	}
 }
