@@ -1,0 +1,29 @@
+<p>
+  <button type="button" class="btn btn-primary btn-sm" onClick="showSpinnah();">Spinner</button>
+</p>
+
+<div class='spinnah'>
+	<div class='spinner1'>
+		<div class='container-A'>
+			<div class='hex0'></div>
+			<div class='hex120'></div>
+			<div class='hex240'></div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	$('.spinnah').hide();
+	$('.spinnah').click(function() {
+		hideSpinnah();
+	})
+	function showSpinnah() {
+		$('.spinnah').css('opacity','1');
+		$('.spinnah').fadeIn(300);
+		overlayIn();
+	}
+	function hideSpinnah() {
+		$('.spinnah').fadeOut(300);
+		overlayOut();
+	}
+</script>

@@ -1,0 +1,1 @@
+Source Sans Pro is used for all body and headline copy. Standard body font weight should be 300, 400 or emphasis. 600 semi bold can be used for h1-h6. DIN condesned bold is reserved for buttons.

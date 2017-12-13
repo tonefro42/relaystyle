@@ -1,0 +1,36 @@
+<div class="sq-form-example">
+  <label for="example_textfield">Text area</label>
+  <input id="example_textfield" type="text" placeholder="text goes here">
+  <label for="example_textfield2">Text area: <span style="color: #FF9100">error</span></label>
+  <input id="example_textfield2" class="error" type="text" placeholder="text still goes here">
+  <label for="example_password">Text area: <strong>password</strong></label>
+  <input id="example_password" type="password" placeholder="you cant read this">
+  <label for="example_selectlist">Select list</label>
+  <select id="example_selectlist">
+    <option value="none">select</option>
+    <option value="none">Doc</option>
+    <option value="none">Dopey</option>
+    <option value="none">Grumpy</option>
+    <option value="none">Sleepy</option>
+    <option value="none">Sneezy</option>
+    <option value="none">Happy</option>
+    <option value="none">Bashful</option>
+  </select>
+  <label for="example_textarea">Text area</label>
+  <textarea id="example_textarea" placeholder="please add your information here"></textarea>
+</div>
+<script type="text/javascript">
+	var varRight;
+	var varTop;
+	$varRight = $('.error').width()+9;
+	$varTop = 9;
+	$('.error').before('<div class="error_icon"></div>');
+	$('.error_icon').css('marginLeft', $varRight);
+	$('.error_icon').css('marginBottom', -$varTop);
+	$('.error_icon').css('marginTop', -$varTop);
+	
+	$('select').before('<div class="select_toggle"></div>');
+	$('.select_toggle').css('marginLeft', $varRight-12);
+	$('.select_toggle').css('marginBottom', -$varTop*2.5);
+	$('.select_toggle').css('marginTop', $varTop*2);
+</script> 

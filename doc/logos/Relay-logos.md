@@ -1,0 +1,1 @@
+Right click on the logos above and "save image as" to download the appropriate PNG file. The files are of larger resolution than displayed, but are meant for Web use only.

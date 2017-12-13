@@ -1,0 +1,36 @@
+<p>
+  <button type="button" class="btn btn-primary btn-sm" onClick="showDialog();">Modal</button>
+</p>
+<div class="cx_dialog">
+  <section class="dialog_header clearfix">
+    <div class="dialog_title">Modal title</div>
+    <div class="dialog_close"><a href="javascript:void(0)" onClick="hideDialog();"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+    <div class="clearfix"></div>
+  </section>
+  <section class="dialog_body">
+    <div class="dialog_icon"><img alt="icon" src="images/hex/warning.png" /></div>
+    <h2>Modal main copy here</h2>
+    <p>Modal secondary copy here if any</p>
+    <div class="modal_btns clearfix">
+      <div class="modal_btn_left">
+        <button type="button" class="btn btn-cancel"><span class="icon icon-left"><i class="fa fa-info-circle" aria-hidden="true"></i></span>left btn</button>
+      </div>
+      <div class="modal_btn_right">
+        <button type="button" class="btn btn-primary">right btn<span class="icon icon-right"><i class="fa fa-info-circle" aria-hidden="true"></i></span></button>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+</div>
+<script type="text/javascript">
+	$('.cx_dialog').hide();
+	function showDialog() {
+		$('.cx_dialog').css('margin-left','-240px');
+		$('.cx_dialog').fadeIn(300);
+		overlayIn();
+	}
+	function hideDialog() {
+		$('.cx_dialog').fadeOut(300);
+		overlayOut();
+	}
+</script>

@@ -1,0 +1,1 @@
+Click on the modal button to view, and close normally. Modals can be used with our without the icon (in most cases we use the icon) and may have 1 or two buttons depending on whether a cancel.proceed situation is needed ot simply an OK.

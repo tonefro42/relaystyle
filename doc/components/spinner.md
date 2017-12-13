@@ -1,0 +1,1 @@
+Click onbutton to view, click on Spinner itself to close. The spinner should fade in and out smoothly and appear whenever there will be a delay caused by a server query or loading time is needed.

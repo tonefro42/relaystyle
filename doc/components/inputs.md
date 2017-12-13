@@ -1,0 +1,1 @@
+Errors: The field or input element gets an orange outline and a "!" icon in the upper right corner. The "!" icon has a rollover toottip which displays the specific error to the user. This can be seen in the staging portal.
