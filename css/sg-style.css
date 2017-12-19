@@ -870,6 +870,11 @@ input.error {
 	z-index: 55;
 }
 
+label span.optional {
+	font-size: .875em;
+	font-weight: 300;
+}
+
 /* form placeholder coloring */
 *:-webkit-autofill {
  -webkit-box-shadow: 0 0 0 30px #fff inset;
