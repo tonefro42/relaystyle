@@ -984,6 +984,15 @@ a.showpassword:hover, a.showpassword:active {
 	margin: .25em auto;
 }
 
+.thumb-preview {
+	width: 80%;
+	margin: .5em auto;
+}
+.thumb-preview img {
+	width: 100%;
+	height: auto;
+}
+
 @media only screen and (min-width: 1366px) {
 	.sg-markup-controls {
 		padding: 0;
@@ -995,6 +1004,10 @@ a.showpassword:hover, a.showpassword:active {
 		line-height: 1.33em;
 		color: #9B9C9C;
 		width: 88%;
+	}
+	.thumb-preview {
+		width: 72%;
+		margin: 1em 0;
 	}
 }
 
