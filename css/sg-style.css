@@ -874,6 +874,22 @@ label span.optional {
 	font-size: .875em;
 	font-weight: 300;
 }
+a.showpassword {
+	display: block;
+	text-align: right;
+	margin-top: -1em;
+	text-decoration: none;
+	color: #3693C0;
+}
+a.showpassword:link, a.showpassword:visited {
+	text-decoration: none;
+	color: #3693C0;
+}
+a.showpassword:hover, a.showpassword:active {
+	text-decoration: none;
+	color: #3FA9DD;
+}
+
 
 /* form placeholder coloring */
 *:-webkit-autofill {
@@ -909,6 +925,13 @@ label span.optional {
 @media only screen and (min-width: 992px){
 	.sq-form-example input, .sq-form-example select, .sq-form-example textarea {
 		width: 80%;
+	}
+	a.showpassword {
+		width: 80%;
+		font-weight: 400;
+		font-size: .875em;
+		margin-top: -1.33em;
+		margin-bottom: 4px;
 	}
 }
 

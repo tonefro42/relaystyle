@@ -1,1 +1,1 @@
-Errors: The field or input element gets an orange outline and a "!" icon in the upper right corner. The "!" icon has a rollover toottip which displays the specific error to the user. This can be seen in the staging portal.
+Errors: The field or input element gets an orange outline and a "!" icon in the upper right corner. The "!" icon has a rollover toottip which displays the specific error to the user. This can be seen in the staging portal. Show password switch should change to hide password with the hide icon when password is shown, and vice versa.
